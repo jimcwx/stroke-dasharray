@@ -26,6 +26,12 @@ animation: background 21s ease infinite;
   animation: dash 5s infinite;
 }
 
+img {
+  height: 800px;
+  width: 1000px;
+  object-fit: contain;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -39,6 +45,12 @@ button {
   font-weight: bold;
   text-shadow: 1px 1px 1px #000, 
                3px 3px 5px blue; 
+  transform:scale(1);
+  transition: all 1s
+}
+
+button:hover {
+  transform:scale(1.3);
 }
 
 .App{
