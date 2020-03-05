@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/stroke-dasharray/static/css/main.1eef1394.chunk.css",
+    "main.js": "/stroke-dasharray/static/js/main.97442783.chunk.js",
+    "main.js.map": "/stroke-dasharray/static/js/main.97442783.chunk.js.map",
+    "runtime-main.js": "/stroke-dasharray/static/js/runtime-main.a215cdda.js",
+    "runtime-main.js.map": "/stroke-dasharray/static/js/runtime-main.a215cdda.js.map",
+    "static/js/2.f6d5cdea.chunk.js": "/stroke-dasharray/static/js/2.f6d5cdea.chunk.js",
+    "static/js/2.f6d5cdea.chunk.js.map": "/stroke-dasharray/static/js/2.f6d5cdea.chunk.js.map",
+    "index.html": "/stroke-dasharray/index.html",
+    "precache-manifest.c0b17164f8adb1b5d1829103bdf9893e.js": "/stroke-dasharray/precache-manifest.c0b17164f8adb1b5d1829103bdf9893e.js",
+    "service-worker.js": "/stroke-dasharray/service-worker.js",
+    "static/css/main.1eef1394.chunk.css.map": "/stroke-dasharray/static/css/main.1eef1394.chunk.css.map",
+    "static/js/2.f6d5cdea.chunk.js.LICENSE.txt": "/stroke-dasharray/static/js/2.f6d5cdea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a215cdda.js",
+    "static/js/2.f6d5cdea.chunk.js",
+    "static/css/main.1eef1394.chunk.css",
+    "static/js/main.97442783.chunk.js"
+  ]
+}
