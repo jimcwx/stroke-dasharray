@@ -32,7 +32,12 @@ class Page3 extends Component {
           </svg>
             : null
         }
-        <button onMouseEnter={this.handleMouseHover}>Do I have your attention? or even curiosity?</button>
+        {
+          this.state.isHovering === false ?
+          <button onMouseEnter={this.handleMouseHover}>Do I have your attention? or even curiosity?</button>
+          : null
+
+        }
       </div>
     );
   }
