@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stroke-dasharray/precache-manifest.c0b17164f8adb1b5d1829103bdf9893e.js"
+  "/stroke-dasharray/precache-manifest.2319f3dfac31cbf41f0df8556e632b5e.js"
 );
 
 self.addEventListener('message', (event) => {
