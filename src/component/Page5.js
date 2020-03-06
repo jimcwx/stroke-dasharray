@@ -1,14 +1,21 @@
 import React, { Component } from "react";
 
-class Page1 extends Component {
+class Page5 extends Component {
   render() {
     return (
       <div className="page">
-        <h1>Nope</h1>
-        <h2>Thank you for watching! Or reading! Or listening! Or three all together!</h2>
+        <div className="shapes">
+          <svg height="200" width="200" class="circle">
+            <circle cx="200" cy="100" r="100" stroke="limegreen" stroke-width="10" stroke-dasharray="10" />
+          </svg>
+          <svg width="200" height="200" class="rect">
+            <rect width="200" height="200" stroke="red" stroke-width="10" stroke-dasharray="10" />
+          </svg>
+        </div>
+        <button onClick={this.props.buttonClick}>Wow is there more?</button>
       </div>
     );
   }
 }
 
-export default Page1;
+export default Page5;

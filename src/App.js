@@ -6,6 +6,7 @@ import Page2 from "./component/Page2";
 import Page3 from "./component/Page3";
 import Page4 from "./component/Page4";
 import Page5 from "./component/Page5";
+import Page6 from "./component/Page6";
 
 class App extends Component {
   constructor() {
@@ -30,6 +31,7 @@ class App extends Component {
           {this.state.pageCounter === 3 ? <Page3 buttonClick={this.buttonClick} /> : null}
           {this.state.pageCounter === 4 ? <Page4 buttonClick={this.buttonClick} /> : null}
           {this.state.pageCounter === 5 ? <Page5 buttonClick={this.buttonClick} /> : null}
+          {this.state.pageCounter === 6 ? <Page6 buttonClick={this.buttonClick} /> : null}
         </div>
       </div>
     );

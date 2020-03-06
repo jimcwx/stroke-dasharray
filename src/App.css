@@ -14,7 +14,18 @@
   align-items:center;
   justify-content: center;
   height: 100%;
+  width: 100%;
 }
+
+.shapes {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  position:relative;
+  left:100px;
+  height:30vh;
+}
+
 
 html {
   background: linear-gradient(270deg, #f0dcca, #c4dcec);
@@ -22,14 +33,17 @@ background-size: 400% 400%;
 animation: background 21s ease infinite;
 }
 
-.cool {
-  animation: dash 5s infinite;
-}
 
 img {
   height: 800px;
   width: 1000px;
   object-fit: contain;
+}
+
+img.code {
+  height: auto;
+  width: 100%;
+  object-fit:contain;
 }
 
 h1 {
@@ -44,7 +58,7 @@ button {
   font-size: 16px;
   font-weight: bold;
   text-shadow: 1px 1px 1px #000, 
-               3px 3px 5px blue; 
+  3px 3px 5px blue; 
   transform:scale(1);
   transition: all 1s
 }
@@ -58,13 +72,36 @@ button:hover {
 }
 
 @keyframes background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 
+.cool {
+  animation: dash 5s infinite;
+}
 @keyframes dash {
   to {
     stroke-dashoffset: 100;
+  }
+}
+
+.circle,
+.rect {
+  width:calc(50% - 50px);
+  animation: evenCooler 3s infinite;
+}
+@keyframes evenCooler {
+  0%{
+    stroke-dashoffset: 0;
+    opacity:100%;
+  }
+  50%{
+    stroke-dashoffset: 200;
+    opacity:0%
+  }
+  100%{
+    stroke-dashoffset:0;
+    opacity:100%;
   }
 }
