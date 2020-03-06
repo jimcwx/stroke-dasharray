@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/stroke-dasharray/static/css/main.65648c4d.chunk.css",
-    "main.js": "/stroke-dasharray/static/js/main.1ad1a6aa.chunk.js",
-    "main.js.map": "/stroke-dasharray/static/js/main.1ad1a6aa.chunk.js.map",
+    "main.css": "/stroke-dasharray/static/css/main.010ca158.chunk.css",
+    "main.js": "/stroke-dasharray/static/js/main.58f91eeb.chunk.js",
+    "main.js.map": "/stroke-dasharray/static/js/main.58f91eeb.chunk.js.map",
     "runtime-main.js": "/stroke-dasharray/static/js/runtime-main.a215cdda.js",
     "runtime-main.js.map": "/stroke-dasharray/static/js/runtime-main.a215cdda.js.map",
     "static/js/2.f6d5cdea.chunk.js": "/stroke-dasharray/static/js/2.f6d5cdea.chunk.js",
     "static/js/2.f6d5cdea.chunk.js.map": "/stroke-dasharray/static/js/2.f6d5cdea.chunk.js.map",
     "index.html": "/stroke-dasharray/index.html",
-    "precache-manifest.db98d96d5679051da8a5c00f306f553f.js": "/stroke-dasharray/precache-manifest.db98d96d5679051da8a5c00f306f553f.js",
+    "precache-manifest.1b676ed308207889177ce4ea643ed27b.js": "/stroke-dasharray/precache-manifest.1b676ed308207889177ce4ea643ed27b.js",
     "service-worker.js": "/stroke-dasharray/service-worker.js",
-    "static/css/main.65648c4d.chunk.css.map": "/stroke-dasharray/static/css/main.65648c4d.chunk.css.map",
+    "static/css/main.010ca158.chunk.css.map": "/stroke-dasharray/static/css/main.010ca158.chunk.css.map",
     "static/js/2.f6d5cdea.chunk.js.LICENSE.txt": "/stroke-dasharray/static/js/2.f6d5cdea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a215cdda.js",
     "static/js/2.f6d5cdea.chunk.js",
-    "static/css/main.65648c4d.chunk.css",
-    "static/js/main.1ad1a6aa.chunk.js"
+    "static/css/main.010ca158.chunk.css",
+    "static/js/main.58f91eeb.chunk.js"
   ]
 }
