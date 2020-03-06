@@ -91,18 +91,19 @@ button:hover {
   width:calc(50% - 50px);
   animation: evenCooler 3s ease-in-out infinite;
   z-index: 1000;
+  opacity:100%
 }
 @keyframes evenCooler {
   0%{
     stroke-dashoffset: 0;
-    opacity:1;
+    opacity:100%;
   }
   50%{
-    stroke-dashoffset: 500;
+    stroke-dashoffset: 200;
     opacity:0.1;
   }
   100%{
     stroke-dashoffset:0;
-    opacity:1;
+    opacity:100%;
   }
 }
